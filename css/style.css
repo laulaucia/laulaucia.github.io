@@ -6,7 +6,8 @@
  * Made By MaterializeCSS.com
  */
 
-a{
+a:link,
+a:visited {
   color: black;
 }
 
