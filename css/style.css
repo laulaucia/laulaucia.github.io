@@ -6,10 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
 
 p {
   line-height: 2rem;
@@ -29,6 +25,10 @@ p {
     width: 100%;
   }
 
+#logo{
+  width: 45%;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -37,12 +37,25 @@ p {
   #index-banner .section {
     top: 10%;
   }
+
+  #logo{
+    width: 25%;
+  }
 }
+
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+
+  #logo{
+    width: 45%;
+  }
+  .tagline{
+  font-size: 1em;
+  }
+
 }
 
 .icon-block {
