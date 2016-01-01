@@ -6,6 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
+a{
+  color: black;
+}
 
 p {
   line-height: 2rem;
