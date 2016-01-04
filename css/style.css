@@ -69,46 +69,38 @@ footer.page-footer {
 
 /*Animation*/
 
-@-webkit-keyframes rotateIn {
+@-webkit-keyframes slideInRight {
   from {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -400deg);
-    transform: rotate3d(0, 0, 1, -400deg);
-    opacity: 0;
+    -webkit-transform: translate3d(200%, 50%, 0);
+    transform: translate3d(200%, 50%, 0);
+    visibility: hidden;
   }
 
   to {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: none;
-    transform: none;
-    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
   }
 }
 
-@keyframes rotateIn {
+@keyframes slideInRight {
   from {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -400deg);
-    transform: rotate3d(0, 0, 1, -400deg);
-    opacity: 0;
+    -webkit-transform: translate3d(200%, 50%, 0);
+    transform: translate3d(200%, 50%, 0);
+    visibility: hidden;
   }
 
   to {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: none;
-    transform: none;
-    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
   }
 }
 
-.rotateIn {
-  -webkit-animation-name: rotateIn;
-  animation-name: rotateIn;
-  animation-duration: 1s;
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  animation-duration: 1.5s;
 }
 
 
