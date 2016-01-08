@@ -106,8 +106,8 @@ footer.page-footer {
 
 
 .animated {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -119,14 +119,13 @@ footer.page-footer {
      -webkit-transform: scale(1.2);
      -moz-transform: scale(1.2);
      -o-transform: scale(1.2);
-     
  }
  .zdmi {
-     -webkit-transform: scale(0.8);
+     -webkit-transform: scale(1);
      /* Browser Variations: */
      
-     -moz-transform: scale(0.8);
-     -o-transform: scale(0.8);
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
      -webkit-transition-duration: 0.5s;
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
