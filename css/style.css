@@ -26,6 +26,20 @@ p {
 #logo{
   width: 45%;
 }
+.portfolio{
+  clear: both;
+}
+.portfolio-holder{
+  clear: both;
+  text-align: center;
+}
+
+.portfolio img {
+  width: 33%;
+  display: inline-block;
+  float: left;
+
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -40,7 +54,12 @@ p {
     width: 25%;
   }
 }
+.portfolio img {
+  width: 50%;
+  display: inline-block;
+  float: left;
 
+}
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
@@ -65,6 +84,12 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+.portfolio img {
+  width: 50%;
+  display: inline-block;
+  float: left;
+
 }
 
 /*Animation*/
