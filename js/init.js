@@ -3,6 +3,8 @@
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
+    var rows = document.getElementsByClassName("row-2");
+    for(var row of rows){row.closest(".material-placeholder").classList.add("row-2")};
     
     
 
