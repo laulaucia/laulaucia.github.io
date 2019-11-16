@@ -185,3 +185,9 @@ body.animationpage{
   margin: 10px;
   border-radius: 50%;
 }
+.portfolio-holder{
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
