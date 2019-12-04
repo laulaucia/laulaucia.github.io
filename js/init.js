@@ -16,5 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     starLine.reversed(!starLine.reversed());
   }
   document.getElementById("all-star").addEventListener("click", callStar);
+  document.getElementById("all-star").addEventListener("touchstart", callStar);
+  
   M.AutoInit();
 });
