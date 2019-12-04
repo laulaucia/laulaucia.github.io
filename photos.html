@@ -17,9 +17,9 @@
 </head>
 <body>
 <div class="container portfolio">
-  <div class="light right"><a href="index.html">Home</a> | <a href="artwork.html">Artwork</a></div>
-  <h1 class="light">Laura Buitrago Photograghy</h1>
-  <p class="light">Photography for me has always been a sort of compulsion. My favorite subjects are candids of everyday life. Photos of mine have appeared in Science News, Society for Science & the Public blog and publications, Science News for Students, Baltimore Magazine, and DC neighborhood blog Prince of Petworth with over 50 photos chosen for publication. I've been an event photographer for the Intel International Science & Engineering Fair, and for events with Neighborhood Farm Initative, and the  Global Fund for Human Rights. </p>
+  <div class=""><a href="index.html">Home</a> | <a href="artwork.html">Artwork</a></div>
+  <h1 >Laura Buitrago Photograghy</h1>
+  <p >Photography for me has always been a sort of compulsion. My favorite subjects are candids of everyday life. Photos of mine have appeared in Science News, Society for Science & the Public blog and publications, Science News for Students, Baltimore Magazine, and DC neighborhood blog Prince of Petworth with over 50 photos chosen for publication. I've been an event photographer for the Intel International Science & Engineering Fair, and for events with Neighborhood Farm Initative, and the  Global Fund for Human Rights. </p>
 
       <div class="  portfolio-holder">
         <img class="materialboxed"  src="images/HAB.jpg" data-caption="Hot Air Balloons over Capadoccia Turkey" loading="lazy">
@@ -42,6 +42,10 @@
     </div>
    <!--  Scripts-->
   <script src="js/materialize.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.1/gsap.min.js"></script>
-  <script src="js/init.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var instances = M.Materialbox.init(elems);
+    });
+  </script>
 </body>
