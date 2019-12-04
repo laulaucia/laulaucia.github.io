@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   intro.from("#all-star", {scale: 200, duration: 2});
   intro.from("h1", {x: -100, duration: 1});
   intro.from(".grid section", {y: 100, duration: 1}, "<");
+  intro.from("aside", {x: 100, duration: 1}, "<");
 
   var starLine = gsap.timeline({ yoyo: true, repeat: 2, delay: 1}).reverse();
   starLine.to("#seafoamStar", {rotation: 36, transformOrigin:"50% 50%", duration: 1}, "<");
