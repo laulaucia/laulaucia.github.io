@@ -18,5 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("all-star").addEventListener("click", callStar);
   document.getElementById("all-star").addEventListener("touchstart", callStar);
   
-  M.AutoInit();
+ 
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems);
+
 });
