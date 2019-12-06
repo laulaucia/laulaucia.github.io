@@ -49,8 +49,7 @@ nav{
   grid-template-areas:
   "header header header nav"
   "section section section section"
-  "aside aside aside aside"
-  "footer footer footer footer";
+  "aside aside aside aside";
   grid-template-rows: auto auto 1fr auto auto;
   gap: 20px;
 }
@@ -115,12 +114,10 @@ footer{
   .grid{
       grid-template-areas:
         "header header header nav"
-        "section section section aside"
-        "footer footer footer footer";
+        "section section section aside";
     grid-template-rows: auto  1fr auto;
     transform: rotate(-3deg);
     margin: 70px;
-    min-height: 70vh;
     gap:0px;
     }
     svg{
@@ -153,8 +150,7 @@ footer{
   .grid{
       grid-template-areas:
         "header header header nav nav "
-        "section section section aside aside"
-        "footer footer footer footer footer";
+        "section section section aside aside";
     grid-template-rows: auto  1fr auto;
     transform: rotate(3deg);
     margin: 100px;
