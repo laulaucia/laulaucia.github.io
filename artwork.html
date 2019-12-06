@@ -43,6 +43,8 @@
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.materialboxed');
       var instances = M.Materialbox.init(elems);
+      var rows = document.getElementsByClassName("row-2");
+      for(var row of rows){row.closest(".material-placeholder").classList.add("row-2")};
     });
   </script>
 </body>
