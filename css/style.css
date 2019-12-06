@@ -6,6 +6,9 @@
   --link-detail-color: #fad82f;
   font-family: 'Proza Libre','arial', sans-serif;
 }
+html, body {
+  height: 100%;
+}
 nav{
   background-color: white;
   box-shadow: none;
