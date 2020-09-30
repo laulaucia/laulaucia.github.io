@@ -161,9 +161,12 @@ footer{
 
 @media screen and (min-width: 1500px){
     :root{
-      --main-color: #ffd2cf;
+      --main-color: #2e3b59;
       --secondary-color: #faf8e6;
       --fun-link-color: #a465db;
+    }
+    section{
+      color:#fcfdff; 
     }
     #Monstera {
       max-width: 100px;
