@@ -208,7 +208,7 @@ footer{
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1000px) {
   .container {
     width: 70%;
   }
@@ -218,7 +218,7 @@ footer{
     margin-bottom: -70px;
   }
 }
-@media screen and (min-width: 1700px){
+@media screen and (min-width: 2000px){
   #Monstera {
     max-width: 100px;
     margin-left: -70px;
