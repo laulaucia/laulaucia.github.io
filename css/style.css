@@ -14,6 +14,11 @@ nav{
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+#Monstera{
+  display: inline-block;
+  max-width: 50px;
+  transform: rotate(-45deg);
+}
 .center{
   text-align: center;
 }
@@ -152,6 +157,9 @@ footer{
       --main-color: #ffd2cf;
       --secondary-color: #faf8e6;
       --fun-link-color: #a465db;
+    }
+    #Monstera {
+      max-width: 100px
     }
   h1{
       font-size: 5em
