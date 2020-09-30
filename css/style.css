@@ -182,6 +182,9 @@ footer{
     grid-template-rows: 1fr 1fr;
     grid-gap: 40px;
   }
+  aside, section{
+    padding: 60px 60px;
+  }
 }
 /* Materialize stuff */
 .container {
