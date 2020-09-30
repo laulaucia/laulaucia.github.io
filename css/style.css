@@ -102,6 +102,10 @@ aside{
   background: var(--secondary-color);
   padding: 60px 30px;
 }
+aside img {
+  margin: 40px 0px;
+  background-color: white;
+}
 footer{
   grid-area: footer;
   background: black;
