@@ -18,6 +18,8 @@ nav{
   display: inline-block;
   max-width: 50px;
   transform: rotate(-45deg);
+  margin-left: -15px;
+  margin-bottom: -30px;
 }
 .center{
   text-align: center;
@@ -123,6 +125,11 @@ footer{
     --secondary-color: #6fdaed;
     --fun-link-color: #a465db;
   }
+  #Monstera{
+    max-width: 70px;
+    margin-left: -30px;
+    margin-bottom: -70px;
+  }
   .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -159,7 +166,9 @@ footer{
       --fun-link-color: #a465db;
     }
     #Monstera {
-      max-width: 100px
+      max-width: 100px;
+      margin-left: -70px;
+      margin-bottom: -100px;
     }
   h1{
       font-size: 5em
