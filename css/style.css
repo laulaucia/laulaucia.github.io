@@ -125,11 +125,6 @@ footer{
     --secondary-color: #6fdaed;
     --fun-link-color: #a465db;
   }
-  #Monstera{
-    max-width: 70px;
-    margin-left: -30px;
-    margin-bottom: -70px;
-  }
   .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -168,11 +163,6 @@ footer{
     section{
       color:#fcfdff; 
     }
-    #Monstera {
-      max-width: 100px;
-      margin-left: -70px;
-      margin-bottom: -100px;
-    }
   h1{
       font-size: 5em
     }
@@ -199,7 +189,6 @@ footer{
   .skill-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     grid-gap: 40px;
   }
   aside, section{
@@ -223,7 +212,20 @@ footer{
   .container {
     width: 70%;
   }
+    #Monstera{
+    max-width: 70px;
+    margin-left: -30px;
+    margin-bottom: -70px;
+  }
 }
+@media screen and (min-width: 1700px){
+  #Monstera {
+    max-width: 100px;
+    margin-left: -70px;
+    margin-bottom: -100px;
+  }
+}
+
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
