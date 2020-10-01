@@ -125,9 +125,12 @@ footer{
 
 @media screen and (min-width: 800px){
   :root{
-    --main-color: #fae3fc;
-    --secondary-color: #6fdaed;
+    --main-color: #bf5d00;
+    --secondary-color: #f4e3fc;
     --fun-link-color: #a465db;
+  }
+  section{
+    color:#fcfdff; 
   }
   .row{
     display: grid;
@@ -174,9 +177,6 @@ footer{
       --main-color: #2e3b59;
       --secondary-color: #faf8e6;
       --fun-link-color: #a465db;
-    }
-    section{
-      color:#fcfdff; 
     }
   h1{
       font-size: 5em
