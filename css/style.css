@@ -158,7 +158,18 @@ footer{
     }
 }
 
-@media screen and (min-width: 1500px){
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+    #Monstera{
+    max-width: 70px;
+    margin-left: -30px;
+    margin-bottom: -70px;
+  }
+}
+
+@media screen and (min-width: 1700px){
     :root{
       --main-color: #2e3b59;
       --secondary-color: #faf8e6;
@@ -198,6 +209,14 @@ footer{
   aside, section{
     padding: 60px 60px;
   }
+  aside img {
+    margin: 40px 100px;
+  }
+  #Monstera {
+    max-width: 100px;
+    margin-left: -70px;
+    margin-bottom: -100px;
+  }
 }
 /* Materialize stuff */
 .container {
@@ -209,24 +228,6 @@ footer{
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .container {
-    width: 70%;
-  }
-    #Monstera{
-    max-width: 70px;
-    margin-left: -30px;
-    margin-bottom: -70px;
-  }
-}
-@media screen and (min-width: 2000px){
-  #Monstera {
-    max-width: 100px;
-    margin-left: -70px;
-    margin-bottom: -100px;
   }
 }
 
