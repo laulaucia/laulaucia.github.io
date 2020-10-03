@@ -176,7 +176,7 @@ footer{
     :root{
       --main-color: #2e3b59;
       --secondary-color: #faf8e6;
-      --fun-link-color: #a465db;
+      --fun-link-color: #2e6b5b;
     }
   h1{
       font-size: 5em
@@ -211,6 +211,9 @@ footer{
   }
   aside img {
     margin: 40px 100px;
+  }
+  section a {
+    color: #ffffd9;
   }
   #Monstera {
     max-width: 100px;
