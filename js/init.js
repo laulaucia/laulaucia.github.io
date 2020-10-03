@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function callStar(){
     starLine.reversed(!starLine.reversed());
   }
-  document.getElementById("all-star").addEventListener("click", callStar);
-  document.getElementById("all-star").addEventListener("touchstart", callStar);
+  document.getElementById("all-star").addEventListener("click", callStar, {passive: true});
+  document.getElementById("all-star").addEventListener("touchstart", callStar, {passive: true});
   
  
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems);
 
-});
+}, {passive: true});
