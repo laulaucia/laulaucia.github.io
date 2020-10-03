@@ -212,7 +212,7 @@ footer{
   aside img {
     margin: 40px 100px;
   }
-  section a {
+  section a, footer a {
     color: #ffffd9;
   }
   #Monstera {
