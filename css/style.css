@@ -1,6 +1,6 @@
 :root{
-  --main-color: #FFA9A2;
-  --secondary-color: #a465db;
+  --main-color: #353136;
+  --secondary-color: #9e856c;
   --paragraph-text-color: #fff;
   --fun-link-color: #5accae;
   --link-detail-color: #fad82f;
@@ -96,11 +96,13 @@ section{
   grid-area: section;
   background: var(--main-color);
   padding: 60px 30px;
+  color:#fcfdff; 
 }
 aside{
   grid-area: aside;
   background: var(--secondary-color);
   padding: 60px 30px;
+  color:#fcfdff; 
 }
 aside img {
   margin: 40px 0px;
@@ -129,9 +131,6 @@ footer{
     --secondary-color: #f4e3fc;
     --fun-link-color: #a465db;
   }
-  section{
-    color:#fcfdff; 
-  }
   .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -151,6 +150,9 @@ footer{
     }
     section {
       border-right: solid 12px black;
+    }
+    aside {
+      color: black;
     }
     nav{
       display:flex;
