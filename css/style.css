@@ -14,6 +14,10 @@ nav{
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+ul li ul {
+  margin-left: 20px;
+  font-size: 1em;
+}
 #Monstera{
   display: inline-block;
   max-width: 50px;
