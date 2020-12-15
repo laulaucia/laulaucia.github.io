@@ -107,6 +107,9 @@ li.tools::marker {
 li.blueberry::marker {
   content: '🔵';
 }
+li.dev::marker {
+  content: '👩‍💻';
+}
 li.grad::marker {
   content: '🎓';
 }
