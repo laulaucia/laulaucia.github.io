@@ -1,2 +1,2 @@
 # Laura's Portfolio Site
-I used materialize to build this portfolio site. 
+This, like me,  is a constant work in progress.
