@@ -122,6 +122,9 @@ li.science::marker {
 li.lounge::marker {
   content: '👯‍♀️';
 }
+li.leaf::marker {
+  content: '🌿';
+}
 a {
   text-decoration-color: var(--link-detail-color);
   text-decoration-skip-ink: none;
